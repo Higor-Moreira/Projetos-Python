@@ -17,7 +17,7 @@ while True:
     opcao = input('Digite o numero da operacao: ')
 
     if opcao == '1':
-        while len(lista_sorteio) != 6:
+        for loop in range(6):
             numero_randomico = randint(1, 60)
 
             if numero_randomico in lista_sorteio:
@@ -31,7 +31,7 @@ while True:
         print()
     
     elif opcao == '2':
-        while len(lista_sorteio) != 15:
+        for loop in range(15):
             numero_randomico = randint(1, 25)
 
             if numero_randomico in lista_sorteio:
