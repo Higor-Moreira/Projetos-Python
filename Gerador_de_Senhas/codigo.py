@@ -16,7 +16,7 @@ def Gerar_Senha():
 
     nova_senha = []
 
-    while len(nova_senha) < 9:
+    while len(nova_senha) < 10:
         randomico = randint(1, 25)
 
         maiscula = randint(1, 4)
@@ -25,8 +25,8 @@ def Gerar_Senha():
         else:
             nova_senha.append(alfabeto[randomico])     
   
-    for item in nova_senha:
-        print(item, end='')
+    return nova_senha
 
-
-Gerar_Senha()
+senha = Gerar_Senha()
+senha = senha + list(especiais[randint(0, 7)]) + list(numeros[randint(0, 9)])
+print(''.join(senha))
