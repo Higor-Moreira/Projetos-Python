@@ -9,6 +9,17 @@ def solicita_CPF():
     while True:
         
         entrada = input('Digite o CPF sem pontuação: ').strip()
+
+        # verifica se a entrada tem 11 digitos
+        if len(entrada) != 11:
+            print('Erro! O CPF deve conter 11 digitos. Tente novamente.')
+            continue
+
+        # verifica se a entrada contém apenas números
+        if not entrada.isdigit():
+            print('Erro! O CPF deve conter apenas numeros. Tente novamente.')
+            continue
+
         try:
             numero = int(entrada) # Tenta converter o valor digitado para int
             return numero # se funcionar, retorno o CPF
@@ -24,7 +35,7 @@ def prepara_cpf(cpf_int):
 
     return lista_de_digitos
 
-# Esta funcao faz o calculo para o primeiro digito verificardor 
+
 def calcula_primeiro_digito_verificador():
     
     total_soma = 0 # soma as multiplicacoes
