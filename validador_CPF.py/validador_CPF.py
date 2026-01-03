@@ -1,6 +1,6 @@
 """
 Estre programa recebe um numero digitado pelo usuario 
-e verifica se o mesmo é um CPF válido. 
+e verifica se o mesmo é um CPF valido. 
 """
 
 # Esta funcao pede o CPF e confirma se foi digitado somente numeros 
@@ -15,14 +15,14 @@ def solicita_CPF():
             print('Erro! O CPF deve conter 11 digitos. Tente novamente.')
             continue
 
-        # verifica se a entrada contém apenas números
+        # verifica se a entrada contém apenas numeros
         if not entrada.isdigit():
             print('Erro! O CPF deve conter apenas numeros. Tente novamente.')
             continue
 
         try:
             numero = int(entrada) # Tenta converter o valor digitado para int
-            return numero # se funcionar, retorno o CPF
+            return numero # se funcionar, retorno os numeros digitados
         except ValueError:
             print('Erro! Por favor, digite somente os numeros do CPF.')
 
