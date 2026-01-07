@@ -14,12 +14,12 @@ def bubble_sort(lista):
         for j in range(0, n - i - 1):
             
             # Percorre a lista de 0 a n-i-1
-            # Troca se o elemento for maior que o próximo
+            # Troca se o elemento for maior que o proximo
             if lista[j] > lista[j + 1]:
                 lista[j], lista[j + 1] = lista[j + 1], lista[j]
                 trocou = True
         
-        # Se não houve troca no loop interno, a lista já está ordenada
+        # Se não houve troca no loop interno, significa que a lista já esta ordenada
         if not trocou:
             break
             
