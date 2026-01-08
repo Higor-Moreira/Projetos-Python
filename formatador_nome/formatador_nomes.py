@@ -11,6 +11,8 @@ Lê um arquivo xlsx com uma lista de nomes faz a seguinte formação:
 import csv
 import string
 import os
+import unicodedata
+import re
 
 # 1. Configuração dos caminhos (para garantir que abra na mesma pasta)
 pasta_atual = os.path.dirname(os.path.abspath(__file__))
@@ -61,7 +63,7 @@ def limpar_formatar_csv():
                 # 4. Adiciona o sufixo 'YOUBPOTECH'
                 # Verifica se o nome não ficou vazio após a limpeza
                 if nome_formatado:
-                    nome_final = f"{nome_formatado} YOUBPOTECH"
+                    nome_final = f"{nome_formatado} - YOUBPOTECH"
                     
                     # 5. Escreve no novo arquivo
                     escritor.writerow([nome_final])
