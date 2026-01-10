@@ -1,5 +1,5 @@
 '''
-Ordena uma lista de valores por meio de seleção e troca
+Ordena uma lista de valores por meio de seleção e troca de posições
 '''
 
 def selection_sort(lista):
