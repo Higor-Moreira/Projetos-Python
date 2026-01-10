@@ -1,8 +1,9 @@
 """
 Versao 2 
 
-Gera dois jogos, uma para servir de aposta e outro de resultado. 
+Gera dois jogos, uma para servir de aposta e outra de resultado. 
 Depois compara ambos até conicidirem. A cada loop é considerado um novo dia. 
+
 
 """
 
@@ -12,7 +13,7 @@ meu_jogo = []
 resultado = []
 dias_jogados = 0
 dias_totais = 0
-valor_aposta = 3
+valor_aposta = 3.5
 total_gasto = 0
 
 
@@ -41,7 +42,7 @@ while True:
     if meu_jogo == resultado:
         print(f'Parabens, voce ganhou apos {dias_totais} dias')
         print(f'Foram necessarios {dias_totais / 365} anos')
-        print(f'Voce gastou R$ {total_gasto}')
+        print(f'Voce gastou R$ {total_gasto:,.2f}')
         break
     else:
         continue
