@@ -46,4 +46,11 @@ Depois de ver suas cartas, o jogador pode:
 ➡️ Se o dealer estourar → jogadores restantes ganham
 ➡️ Empate → push (ninguém ganha nem perde)
 
+
+
+====== ⭐ Blackjack (21 natural) ======
+
+➡️ e o jogador fizer 21 com apenas duas cartas (Ás + carta de valor 10):
+➡️ Isso é chamado de Blackjack
+➡️ Normalmente paga mais do que uma vitória comum
 '''
