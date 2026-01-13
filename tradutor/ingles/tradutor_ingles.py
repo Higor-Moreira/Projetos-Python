@@ -32,7 +32,7 @@ frase_traduzida = ' '.join(palavras_traduzidas)
 
 print(frase_traduzida)
 
-
-
+# Status - OK
+# V2 -> aumentar lista de palavras para otimizar tradução
 
 
