@@ -54,3 +54,8 @@ Depois de ver suas cartas, o jogador pode:
 ➡️ Isso é chamado de Blackjack
 ➡️ Normalmente paga mais do que uma vitória comum
 '''
+
+# Pendente:
+# 1 - Quantas cartas tem um baralho e a quantidade de cada uma para 
+# definir a probabilidade de cada carta aparecer. 
+
