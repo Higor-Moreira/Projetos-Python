@@ -59,3 +59,5 @@ Depois de ver suas cartas, o jogador pode:
 # 1 - Quantas cartas tem um baralho e a quantidade de cada uma para 
 # definir a probabilidade de cada carta aparecer. 
 
+blackjack = 21
+cartas = {}
