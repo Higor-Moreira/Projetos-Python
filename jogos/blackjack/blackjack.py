@@ -65,7 +65,10 @@ Depois de ver suas cartas, o jogador pode:
 import random
 
 blackjack = 21
+pontos_jogador = 0
+pontos_dealer = 0
 valete, dama, rei = 10
+
 cartas = {1: 'Às',
           2: '2',
           3: '3',
