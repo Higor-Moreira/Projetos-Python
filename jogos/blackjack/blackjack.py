@@ -60,6 +60,7 @@ Depois de ver suas cartas, o jogador pode:
 # definir a probabilidade de cada carta aparecer. 
 
 # Naipes = 4 (Copas ♥, Paus ♣, Ouros ♦, Espadas ♠).
+# Cada naipe possui 13 cartas (Ás, 2, 3, 4, 5, 6, 7, 8, 9, 10, Valete (J), Dama (Q), Rei (K))
 
 blackjack = 21
 cartas = {}
