@@ -65,6 +65,7 @@ Depois de ver suas cartas, o jogador pode:
 import random
 
 blackjack = 21
+valete, dama, rei = 10
 cartas = {1: 'Às',
           2: '2',
           3: '3',
@@ -73,7 +74,9 @@ cartas = {1: 'Às',
           6: '6',
           7: '7',
           8: '8',
-          9: '9'}
+          9: '9',
+          10: '10',
+          }
 
 randomico = random.randint(1, len(cartas))
 
