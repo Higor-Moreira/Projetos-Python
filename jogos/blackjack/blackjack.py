@@ -62,8 +62,19 @@ Depois de ver suas cartas, o jogador pode:
 # Naipes = 4 (Copas ♥, Paus ♣, Ouros ♦, Espadas ♠).
 # Cada naipe possui 13 cartas (Ás, 2, 3, 4, 5, 6, 7, 8, 9, 10, Valete (J), Dama (Q), Rei (K))
 
+import random
+
 blackjack = 21
 cartas = {1: 'Às',
           2: '2',
           3: '3',
-          4: }
+          4: '4',
+          5: '5',
+          6: '6',
+          7: '7',
+          8: '8',
+          9: '9'}
+
+randomico = random.randint(1, len(cartas))
+
+print(cartas[randomico])
