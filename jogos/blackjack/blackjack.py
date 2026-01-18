@@ -71,9 +71,12 @@ continuar_jogando = True
 
 lista_cartas = ['Às', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J - Valete', 'Q - Dama', 'K - Rei']
 
+def distribuir_cartas():
+    randomico = random.randint(0, 12)
+    carta = lista_cartas[randomico]
+    return carta
+
 while continuar_jogando:
 
-    randomico = random.randint(0, 12)
-    print(lista_cartas[randomico])
-
+    
     
