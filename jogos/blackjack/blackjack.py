@@ -70,13 +70,27 @@ pontos_dealer = 0
 continuar_jogando = True
 
 lista_cartas = ['Às', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J - Valete', 'Q - Dama', 'K - Rei']
+mao_jogador = []
+mao_dealer = []
 
-def distribuir_cartas():
+def receber_carta():
     randomico = random.randint(0, 12)
     carta = lista_cartas[randomico]
     return carta
 
-while continuar_jogando:
+def menu():
+    print('=' * 35)
+    print('1 - Hit (Pedir carta) \n''2 - Stand (Mantém pontuação atual)')
 
+while continuar_jogando:
     
+    print('Distribuição de cartas...')
+
+    mao_jogador = receber_carta()
+    mao_jogador = receber_carta()
+
+    mao_dealer = receber_carta()
+    mao_dealer = receber_carta()
+    
+    print(mao_dealer, mao_jogador)
     
