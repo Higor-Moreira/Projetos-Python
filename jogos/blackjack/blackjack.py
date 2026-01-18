@@ -67,20 +67,10 @@ import random
 blackjack = 21
 pontos_jogador = 0
 pontos_dealer = 0
-cartas = {1: 'Às',
-          2: '2',
-          3: '3',
-          4: '4',
-          5: '5',
-          6: '6',
-          7: '7',
-          8: '8',
-          9: '9',
-          10: '10',
-          }
+
 
 lista_cartas = ['Às', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Valete', 'Dama', 'Rei']
 
-randomico = random.randint(1, 12)
+randomico = random.randint(0, 12)
 
 print(lista_cartas[randomico])
