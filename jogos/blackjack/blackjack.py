@@ -69,7 +69,7 @@ pontos_jogador = 0
 pontos_dealer = 0
 continuar_jogando = True
 
-lista_cartas = ['Às', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J - Valete', 'Q - Dama', 'K - Rei']
+lista_cartas = ['Às', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Valete', 'Dama', 'Rei']
 mao_jogador = []
 mao_dealer = []
 
@@ -93,3 +93,7 @@ for num in range (0, 10):
     
     print(f'Suas cartas: {mao_jogador[0]}, {mao_jogador[1]}')
     print(f'Cartas Dealer: {mao_dealer[0]}')
+    print()
+
+    mao_dealer.clear()
+    mao_jogador.clear()
