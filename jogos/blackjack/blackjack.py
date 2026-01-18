@@ -53,6 +53,7 @@ Depois de ver suas cartas, o jogador pode:
 ➡️ e o jogador fizer 21 com apenas duas cartas (Ás + carta de valor 10):
 ➡️ Isso é chamado de Blackjack
 ➡️ Normalmente paga mais do que uma vitória comum
+
 '''
 
 # Pendente:
