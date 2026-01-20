@@ -86,21 +86,7 @@ def menu():
 
 for num in range (0, 10):
     
-    carta = receber_carta()
-    if carta in 'ValeteDamaRei':
-        mao_jogador.append(10)
-    elif carta == 'Às':
-        print('Escolha o valor do Às - 1 ou 11')
-        carta = int(input('Valor escolhido -> '))
-        mao_jogador.append(carta)
-    else:
-        mao_jogador.append(int(carta))
-
-    mao_jogador.append(receber_carta())
-
-    mao_dealer.append(receber_carta())
-    mao_dealer.append(receber_carta())
-
+    
     
     print(f'Suas cartas: {mao_jogador[0]}, {mao_jogador[1]}')
     print(f'Cartas Dealer: {mao_dealer[0]}')
