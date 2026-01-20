@@ -86,7 +86,10 @@ def menu():
 
 for num in range (0, 10):
     
-    
+    for carta in range(2):
+        carta = receber_carta()
+        print(f'carta escolhida randomicamente {carta}')
+        
     
     print(f'Suas cartas: {mao_jogador[0]}, {mao_jogador[1]}')
     print(f'Cartas Dealer: {mao_dealer[0]}')
